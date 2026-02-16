@@ -83,4 +83,3 @@ todo-app/
 ## Author
 Siddhi
 
-Just tell me 👍
