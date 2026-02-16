@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-container">
+        <h2>My To-Do List</h2>
+
+        <div class="input-section">
+            <label for="taskInput" class="sr-only">Task</label>
+            <input type="text" id="taskInput" placeholder="Enter a task" aria-label="Task">
+            <label for="prioritySelect" class="sr-only">Priority</label>
+            <select id="prioritySelect" aria-label="Priority">
+                <option value="low">Low</option>
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button id="addTaskBtn">Add</button>
+        </div>
+
+        <div class="toolbar">
+            <div class="filters" id="filters" role="group" aria-label="Filter tasks">
+                <button data-filter="all" class="active">All</button>
+                <button data-filter="active">Active</button>
+                <button data-filter="completed">Completed</button>
+            </div>
+            <div class="meta">
+                <span id="counter" aria-live="polite">0 items</span>
+                <button id="clearCompletedBtn" class="clear-btn">Clear Completed</button>
+            </div>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
