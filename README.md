@@ -74,6 +74,17 @@ todo-app/
 
 ---
 
+## 📱 Responsive Design
+
+This application is fully responsive and works on:
+- Desktop
+- Tablet
+- Mobile devices (max-width: 768px)
+
+Tested using Chrome DevTools.
+
+---
+
 ## Future Improvements
 
 * Save tasks using local storage
