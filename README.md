@@ -4,6 +4,9 @@ This is a front-end To-Do List application built using **HTML, CSS, and JavaScri
 The app allows users to add tasks with priority levels, mark them as completed, filter tasks, and clear completed items. All updates happen dynamically without reloading the page.
 
 ---
+## 🔗 Live Demo 
+
+👉  https://siddhi-i.github.io/ToDo/
 
 ## Features
 
